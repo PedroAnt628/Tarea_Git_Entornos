@@ -4,7 +4,7 @@ package org.example;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[]args) throws Exception{
-        int min=1, max=10;
+        int min=5, max=50;
         int numero1=(int)(Math.random()*(max-min+1))+min;
         int numero2=(int)(Math.random()*(max-min+1))+min;
 
