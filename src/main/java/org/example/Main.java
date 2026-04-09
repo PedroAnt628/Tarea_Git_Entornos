@@ -6,11 +6,10 @@ public class Main {
     public static void main(String[]args) throws Exception{
         int min=5, max=50;
         int numero1=(int)(Math.random()*(max-min+1))+min;
-        int numero2=(int)(Math.random()*(max-min+1))+min;
         int numero3=(int)(Math.random()*(max-min+1))+min;
 
         double conciente=numero1/(double)numero2;
-        double media=(numero1+numero2+numero3)/3.0;
+        double media=(numero1+numero3)/2.0;
         double potencia=Math.pow(numero1, numero2);
         double raiz1=Math.sqrt(numero1);
         double raiz2=Math.sqrt(numero2);
